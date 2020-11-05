@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.colored-section{
+  background: url(images/Hero/Background.png);
+  background-size: cover;
+  color: black;
+}
+
+.navbar-brand{
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+}
+
+.download-button{
+  margin: 0 5px;
+}
+
+.big-heading{
+  font-family: 'Manrope';
+  font-weight: bold;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+.btn-purple{
+  background-color: #8C30F5;
+  color: #ffffff;
+  font-family: 'Manrope';
+  margin: 5% 0;
+}
+
+.btn-purple:hover{
+  background-color:  #7222ce;
+}
+
+.nav-item{
+  font-weight: bold;
+  font-family: 'Manrope';
+  margin-right: 18px;
+}
+
+.nav-link, .nav-dropdown{
+  color: black;
+}
+
+#heading{
+  margin: 10% 0%;
+}
+
+.title-image{
+  margin-top: -7%;
+}
+.container-fluid{
+  padding: 0% 10%; 
+}
+
+.press-logo {
+  align-self: center;
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.logo-image{
+  padding-left: 30%;
+}
+
+#about h2{
+  font-weight: 800;
+  font-family: 'Manrope';
+  font-size: 48px;
+}
+
+#about{
+  margin: 0 250px 50px;
+}
+
+#about p{
+  font-family: 'Manrope';
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.aqua-section{
+  background-color: #D5FAFC;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 80px;
+}
+
+.testimonial-image{
+  width: 10%;
+  margin: 20px;
+}
+
+#pricing{
+  margin: 50px;
+  font-family: 'Manrope';
+}
+
+#achievements{
+  padding: 100px;
+}
+
+#achievements h2{
+  font-weight: 800;
+}
+
+#blog{
+  margin: 100px;
+}
+
+#text-blog{
+  margin: 150px 0;
+}
+
+#text-blog h2{
+  font-weight: 800;
+}
+
+#text-blog h2, #text-blog p{
+  margin-bottom: 50px;
+  font-family: 'Manrope';
+}
+
+#jobs .row{
+  margin: 20px 150px;
+}
+
+#jobs h3{
+  margin-right: 50px;
+  font-weight: 800;
+  font-size: 40px;
+  font-family: 'Manrope';
+}
+
+#jobs p{
+  margin-left: 50px;
+  font-family: 'Manrope';
+}
+
+#jobs img{
+  width: 1110px;
+  height: 400px;
+  margin: 20px 115px;
+}
+
+#download button{
+  background-color: black;
+}
+
+#download button:hover{
+  background-color: rgb(44, 44, 44);
+}
+
+#download{
+  background-color:#2EC5CE;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+#download .text{
+  margin-top: 30px;
+}
+
+#download h2{
+  font-size: 48px;
+  font-weight: 800;
+  font-family: 'Manrope';
+}
+
+#download p{
+  font-size: 18px;
+  font-family: 'Manrope';
+}
+
+#download caption{
+  font-family: 'Manrope';
+}
+
+#bawah{
+  margin-top: -50px;
+}
+
+.footer{
+  background-color: #0B0D17;
+  padding-top: 50px;
+}
+
+.footer img{
+  margin-left: 25px;
+}
+
+.footer nav a{
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Manrope';
+}
+
+.footer nav a:hover{
+  color: #2EC5CE;
+}
+
+.footer p{
+  margin-left: 25px;
+  color: #ffffff;
+  font-family: 'Manrope';
+}
+
+.footer p{
+  color: #ffffff;
+}
+
+.footer button{
+  margin-bottom: 10px;
+  background-color: black;
+}
+
+@media (max-width: 900px){
+  #about{
+    text-align: left;
+  }
+}
